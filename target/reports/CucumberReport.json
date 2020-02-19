@@ -1,0 +1,164 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8227453500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "People finder a existing person with sucess",
+        "description": "",
+        "id": "home-page-of-senta-portal-verifications;people-finder-a-existing-person-with-sucess",
+        "after": [
+          {
+            "result": {
+              "duration": 121200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3174503100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that accessing the Senta homepage",
+            "match": {
+              "location": "SentaHomePageStep.that_accessing_the_Senta_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10082619900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the page is loaded",
+            "match": {
+              "location": "SentaHomePageStep.the_page_is_loaded()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25713766900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on \"My Apps\" label on HubNav",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My Apps",
+                  "offset": 10
+                }
+              ],
+              "location": "SentaHomePageStep.click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4510174100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "open \"People Finder\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "People Finder",
+                  "offset": 6
+                }
+              ],
+              "location": "SentaHomePageStep.open_application(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22144421900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the People Finder is loaded",
+            "match": {
+              "location": "SentaHomePageStep.the_People_Finder_is_loaded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242828500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "search for \"Juvenal Ribeiro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Juvenal Ribeiro",
+                  "offset": 12
+                }
+              ],
+              "location": "SentaHomePageStep.search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1564846000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "name \"Ribeiro, Juvenal\" is displyed on results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ribeiro, Juvenal",
+                  "offset": 6
+                }
+              ],
+              "location": "SentaHomePageStep.is_displyed_on_results(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Home page of Senta Portal Verifications",
+    "description": "",
+    "id": "home-page-of-senta-portal-verifications",
+    "keyword": "Feature",
+    "uri": "HitachiDemoWeb.feature"
+  }
+]

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 3, Skipped: 4, Time elapsed: 44.91 sec <<< FAILURE! - in runner.RunnerTest
+And click on "My Apps" label on HubNav(Scenario: People finder a existing person with sucess)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: People finder a existing person with sucess  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: People finder a existing person with sucess  Time elapsed: 0.025 sec  <<< ERROR!
+java.lang.NullPointerException
+
