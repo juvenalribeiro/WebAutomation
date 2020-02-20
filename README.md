@@ -3,7 +3,7 @@
 <p>This framework is characterized by its simplicity of implementation, has the basic and necessary methods for testing Web applications in browsers Chrome, Firefox, Internet Explorer and Headless mode.</p>
 
 <ul>
-	<li>Main technologies used and validated on this framework test commit</li>
+	<li>Main technologies used and validated on this framewor></li>
 </ul>
 
 <p><strong><em>The versions described below are the versions in which this framework was developed and used in market projects.<br />
